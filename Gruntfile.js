@@ -294,6 +294,10 @@ module.exports = function (grunt) {
     },
     src: ['**']
   },
+    'gh-push': {
+      options: {
+        push: true
+      },
 
     // By default, your `index.html`'s <!-- Usemin block --> will take care
     // of minification. These next options are pre-configured if you do not
@@ -465,6 +469,7 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin',
+    'gh-push',
     'gh-pages'
   ]);
 };
