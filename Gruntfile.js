@@ -450,4 +450,21 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.registerTask('build-control', [
+    'clean:dist',
+    'wiredep',
+    'useminPrepare',
+    'concurrent:dist',
+    'autoprefixer',
+    'concat',
+    'cssmin',
+    'uglify',
+    'copy:dist',
+    'modernizr',
+    'rev',
+    'usemin',
+    'htmlmin'
+    'gh-pages'
+  ]);
 };
