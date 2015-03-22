@@ -296,6 +296,7 @@ module.exports = function (grunt) {
   },
     'gh-push': {
       options: {
+        branch: 'main',
         push: true
       },
       src: ['**']
