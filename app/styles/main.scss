@@ -6602,11 +6602,18 @@ button.close {
 
 }
 
+@media (max-device-width: 1199px) and (orientation: landscape){
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin-left: 0;
+}
+}
+@media (min-width: 1200px) {
+.carousel-inner {
   margin-left: 250px;
+  }
 }
 .carousel-inner > .item {
   display: none;
