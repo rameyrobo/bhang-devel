@@ -6599,12 +6599,14 @@ button.close {
 
 .carousel {
   position: relative;
+
 }
 
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin-left: 250px;
 }
 .carousel-inner > .item {
   display: none;
@@ -14403,3 +14405,7 @@ ul.nav.navbar-nav li {
     padding-right: 35px;
 }
 
+.homeHeadline {
+  background-color: #FFFFFF;
+  display: block;
+}
