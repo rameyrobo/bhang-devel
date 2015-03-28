@@ -1389,8 +1389,8 @@ html {
 
 body {
   
-  font-family: "BentonSans-Black, Helvetica Neue", Helvetica, Arial, sans-serif;
-  src: url("fonts/BentonSans-Black.otf");
+  font-family: "BentonSans-Medium, Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: url("fonts/BentonSans-Medium.otf");
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -14136,7 +14136,8 @@ h5, .h5,
 h6, .h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BentonSansCond-Bold", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: url("styles/fonts/BentonSansCond-Bold.otf");
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -14173,7 +14174,8 @@ a:hover, a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "BentonSansCond-Bold", "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  src: url("styles/fonts/BentonSansCond-Bold.otf");
   background-color: #000;
 }
 .navbar-custom .navbar-brand {
@@ -14320,7 +14322,8 @@ a:hover, a:focus {
 }
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "BentonSans-Light" "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  src: url("styles/fonts/BentonSans-Light.otf");
   font-weight: 400;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
