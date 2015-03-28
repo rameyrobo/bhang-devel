@@ -6610,7 +6610,12 @@ button.close {
   margin-left: 0;
 }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width:1399px) {
+.carousel-inner {
+  margin-left: 125px;
+  }
+}
+@media (min-width: 1400px) {
 .carousel-inner {
   margin-left: 250px;
   }
