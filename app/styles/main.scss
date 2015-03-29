@@ -14144,7 +14144,6 @@ body {
 
 h1, .h1,
 h2, .h2,
-h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
@@ -14152,6 +14151,14 @@ h6, .h6 {
   text-transform: uppercase;
   font-family: "BentonSansCond-Bold", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   src: url("styles/fonts/BentonSansCond-Bold.otf");
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h3, .h3 {
+  margin: 0 0 35px;
+  font-family: "BentonSans-Light","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: url("styles/fonts/BentonSans-Light.otf")
+  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -14428,10 +14435,17 @@ ul.nav.navbar-nav li {
   margin-bottom: 75px;
 }
 
+@media (min-width:1500px){
 .col-lg-10.col-lg-offset-1.homeHeadlineImage {
   padding-bottom: 75px;
+  margin-left: 8.333333%;
+  }
 }
-
+@media (max-width:1499px){
+.col-lg-10.col-lg-offset-1.homeHeadlineImage {
+  padding-bottom: 75px;
+  }
+}
 .page-scroll{
   top: 75px;
 }
